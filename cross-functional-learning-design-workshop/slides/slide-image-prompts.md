@@ -150,6 +150,8 @@ Save generated images in `cross-functional-learning-design-workshop/assets/image
 
 To embed images in the deck, edit `build-slides.py`: replace each `image_slot()` call with `c.drawImage()` using the path to the image file. Regenerate with `python3 build-slides.py` from the `slides/` folder.
 
+**PowerPoint:** To use images in the .pptx, right-click each image placeholder shape and choose **Change Picture**. Point to the file in `../assets/images/` (or your chosen folder). Regenerate the deck with `python3 build-pptx.py` from the `slides/` folder after any content changes.
+
 ---
 
 ## Stock photography fallback
