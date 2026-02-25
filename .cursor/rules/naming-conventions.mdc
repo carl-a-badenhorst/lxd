@@ -1,0 +1,20 @@
+---
+description: Apply project naming conventions when creating or renaming artifacts.
+alwaysApply: true
+---
+
+# Naming conventions
+
+When creating or renaming **files**, **folders**, **branches**, **commits**, **tags**, or **assets**, follow the conventions in **NAMING.md** at the project root.
+
+Read NAMING.md for:
+
+- General format (lowercase, hyphens)
+- Standard file names by folder
+- Semantic versioning (MAJOR.MINOR.PATCH)
+- Git tags (v-prefix)
+- Branch naming (type/short-description)
+- Commit message style
+- Asset naming (images, media)
+
+Apply these rules consistently unless the user explicitly asks for a different convention.
