@@ -74,6 +74,26 @@ Label each frame clearly:
 
 Use a consistent background for each zone: light grey (#F5F5F5) for active work phases, dark (#111111) for the high-focus moments (Phase 2 recall task, closing retrieval task). This reinforces the visual rhythm of the session.
 
+### Building the board with the script
+
+A Python script in this folder builds the full board via the Miro REST API so you do not have to create frames and content by hand.
+
+**Requirements:** Python 3, `requests` (`pip install requests`), and a Miro API access token.
+
+**Getting a token:**
+1. Go to [Miro Developer](https://developers.miro.com), sign in, and create an app (or use an existing one).
+2. In the app settings, add the scope `boards:write` and copy a **Personal access token** (or use OAuth if you need team boards).
+3. Set `MIRO_ACCESS_TOKEN` in your environment. Optionally set `MIRO_TEAM_ID` if you want the new board created in a specific team.
+
+**Run the script:** From the `facilitator/` folder run:
+```bash
+export MIRO_ACCESS_TOKEN="your_token"
+python build-miro-board.py
+```
+The script creates a new board, nine frames (Landing + Phases 1–7 + Break), and all zone content (prompts, sticky note areas, commitment cards, Redesign Map template, fallback artefact text, etc.). It prints the board URL when done.
+
+**After the script:** Open the board and (1) duplicate the Phase 5 Redesign Map template once per team and label each copy, (2) add participant names to the Landing zone sticky notes or leave placeholders, (3) add the Timer widget in Phase 2 (Insert > Apps > Timer), (4) lock zone headers, prompts, and any cover shapes you will reveal during the session. The playbook’s zone-by-zone and pre-session checklist still apply.
+
 ---
 
 ## Zone-by-zone setup guide

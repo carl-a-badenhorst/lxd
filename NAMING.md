@@ -21,8 +21,8 @@ Use these standard names so the agent and contributors know what to create or ex
 |--------|---------------------|
 | Repo root | `README.md`, `AGENT.md`, `NAMING.md`, `LICENSE` (if used) |
 | Workshop or learning-design folder (e.g. `workshop-name/`) | `workshop-outline.md` at root; see workshop subfolders below |
-| Workshop subfolder `facilitator/` | `facilitator-guide.md`, `run-of-show.md`, `miro-playbook.md`, `figjam-playbook.md` |
-| Workshop subfolder `participant/` | `learner-handout.md`, `learner-handout.pdf`, `build-handout.py` |
+| Workshop subfolder `facilitator/` | `facilitator-guide.md`, `run-of-show.md`, `miro-playbook.md`, `figjam-playbook.md`, `visual-design-specs.md` |
+| Workshop subfolder `participant/` | `learner-handout.md`, `learner-handout.pdf`, `build-handout.py`, `redesign-map-template.md`, `pre-work-primer.md`, `glossary-card.md`, `30-day-followup.md` |
 | Workshop subfolder `slides/` | `workshop-slides.pdf`, `build-slides.py` |
 | `docs/` | `design-rationale.md`, `learning-objectives.md`, and other doc types as needed (lowercase, hyphenated) |
 | Assets | See **Asset naming** below. Main subfolders: `assets/images/`, `assets/media/` |

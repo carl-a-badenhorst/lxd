@@ -1,0 +1,11 @@
+# Generated and binary assets (folder structure kept via .gitkeep)
+cross-functional-learning-design-workshop/assets/images/*
+!cross-functional-learning-design-workshop/assets/images/.gitkeep
+cross-functional-learning-design-workshop/assets/media/*
+!cross-functional-learning-design-workshop/assets/media/.gitkeep
+
+# OS and editor
+.DS_Store
+*.swp
+*.swo
+*~
